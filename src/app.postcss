@@ -1,0 +1,12 @@
+/* Write your global styles here, in PostCSS syntax */
+body { @apply bg-surface-100-800-token; }
+
+.hero-gradient {
+  background-image: radial-gradient(at 0% 0%,rgba(var(--color-secondary-500) / .33) 0px,transparent 50%),radial-gradient(at 98% 1%,rgba(var(--color-error-500) / .33) 0px,transparent 50%);
+}
+
+html, body { @apply h-full overflow-hidden; }
+
+* {
+  scroll-behavior: smooth;
+}
